@@ -2,4 +2,4 @@ import Dog from './dog'
 
 const toby = new Dog('Toby')
 
-console.log(navigator.serviceWorker);
+console.log(toby)

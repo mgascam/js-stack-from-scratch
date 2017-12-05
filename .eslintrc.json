@@ -8,5 +8,8 @@
     "no-unexpected-multiline": 2,
     "indent": ["error", 4],
     "compat/compat": 2
+  },
+  "env": {
+    "jest": true
   }
 }
