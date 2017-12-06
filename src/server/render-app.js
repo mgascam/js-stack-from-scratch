@@ -1,8 +1,7 @@
 
 import { STATIC_PATH } from '../shared/config'
 
-const renderApp = title => {
-    return `<!doctype html>
+const renderApp = title => `<!doctype html>
     <html>
       <head>
         <title>${title}</title>
@@ -13,6 +12,5 @@ const renderApp = title => {
       </body>
     </html>
     `
-}
 
 export default renderApp
